@@ -40,8 +40,8 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Algumas habilidades que eu aprendi durante 1 ano e meio de
-                programação
+                Algumas habilidades que eu aprendi durante 2 anos de programação
+                <br></br>(Alguns logos são clicáveis)
               </p>
               <Carousel
                 responsive={responsive}
@@ -63,7 +63,13 @@ export const Skills = () => {
                   <h5 className="mb">MySQL</h5>
                 </div>
                 <div className="item">
-                  <img src={meter9} alt="Imagem" />
+                  <a
+                    href="https://www.udemy.com/certificate/UC-f4742800-47e9-49d5-a6a8-29e8ac6d4ffa/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img src={meter9} alt="Imagem" />
+                  </a>
                   <h5 className="mb">Excel</h5>
                 </div>
                 <div className="item">

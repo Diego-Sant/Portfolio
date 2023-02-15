@@ -1,14 +1,14 @@
-import { useState, useEffect } from "react";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import { useState, useEffect } from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import logo from '../assets/img/logo.svg';
+import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon3 from '../assets/img/nav-icon3.svg';
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -20,9 +20,9 @@ export const NavBar = () => {
       }
     };
 
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener('scroll', onScroll);
 
-    return () => window.removeEventListener("scroll", onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   const onUpdateActiveLink = (value) => {
@@ -30,7 +30,7 @@ export const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" className={scrolled ? 'scrolled' : ''}>
       <Container>
         <Navbar.Brand href="#home">
           <img src={logo} alt="Logo" />
@@ -43,27 +43,27 @@ export const NavBar = () => {
             <Nav.Link
               href="#home"
               className={
-                activeLink === "home" ? "active navbar-link" : "navbar-link"
+                activeLink === 'home' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={() => onUpdateActiveLink("home")}
+              onClick={() => onUpdateActiveLink('home')}
             >
               Home
             </Nav.Link>
             <Nav.Link
               href="#skills"
               className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
+                activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={() => onUpdateActiveLink("skills")}
+              onClick={() => onUpdateActiveLink('skills')}
             >
               Skills
             </Nav.Link>
             <Nav.Link
               href="#projetos"
               className={
-                activeLink === "projetos" ? "active navbar-link" : "navbar-link"
+                activeLink === 'projetos' ? 'active navbar-link' : 'navbar-link'
               }
-              onClick={() => onUpdateActiveLink("projetos")}
+              onClick={() => onUpdateActiveLink('projetos')}
             >
               Projetos
             </Nav.Link>
@@ -85,14 +85,14 @@ export const NavBar = () => {
                 <img src={navIcon2} alt="Github" />
               </a>
               <a
-                href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQQLQGRwMnvdmHnNHVnkWwqVrQFdGsKgmzXwtnJjTqcJBVFvrZNrjMfHltBFljxmCmzZQ"
+                href="mailto:diegossantana068@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={navIcon3} alt="Gmail" />
               </a>
             </div>
-            <button className="vvd" onClick={() => console.log("connect")}>
+            <button className="vvd" onClick={() => console.log('connect')}>
               <span>Disponível</span>
             </button>
           </span>

@@ -29,7 +29,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'CloneTube'
+          CloneTube
         </a>
       ),
       description:
@@ -44,7 +44,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'RateYourMovie'
+          RateYourMovie
         </a>
       ),
       description:
@@ -59,7 +59,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'WildBeast'
+          WildBeast
         </a>
       ),
       description: 'Site informativo sobre animais selvagens.',
@@ -73,7 +73,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'YourTurnToDie'
+          YourTurnToDie
         </a>
       ),
       description: 'Wiki sobre um jogo de escolhas.',
@@ -85,8 +85,9 @@ export const Projects = () => {
       imgUrl: projImg5,
     },
     {
-      title: 'QuizApp',
-      description: 'Quiz básico sobre jogos em geral.',
+      title: 'Perfil do cliente',
+      description:
+        'Dashboard completo com pesquisa entre datas e CPF sobre as atividades do cliente.',
       imgUrl: projImg6,
     },
     {
@@ -97,7 +98,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'NetGamePass'
+          NetGamePass
         </a>
       ),
       description:
@@ -105,8 +106,9 @@ export const Projects = () => {
       imgUrl: projImg7,
     },
     {
-      title: 'NetClone',
-      description: 'Clone da Netflix usando uma API.',
+      title: 'Gestão de investimento Excel',
+      description:
+        'Dashboard feito para mostrar as valorizações de cotação de empresas e de fundos imobiliários',
       imgUrl: projImg8,
     },
     {
@@ -117,7 +119,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'EscapeFromHell'
+          EscapeFromHell
         </a>
       ),
       description:
@@ -132,7 +134,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'GodHunter'
+          GodHunter
         </a>
       ),
       description: 'Jogo de luta em turnos feito no pygame.',
@@ -142,19 +144,20 @@ export const Projects = () => {
       title: (
         <a
           className="linksites"
-          href="https://github.com/Diego-Sant/Clonefy"
+          href="https://clonefy-ds.netlify.app/"
           rel="noreferrer"
           target="_blank"
         >
-          'CloneFy'
+          CloneFy
         </a>
       ),
       description: 'Site inspirado no Spotify com outras mecânicas. ',
       imgUrl: projImg15,
     },
     {
-      title: 'GameFox',
-      description: 'Site sobre peças de um setup gamer.',
+      title: 'Fluxo de caixa empresarial',
+      description:
+        'Dashboard com pesquisa entre datas(Tanto por dia/mês quanto por ano completo)',
       imgUrl: projImg13,
     },
     {
@@ -165,7 +168,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'FlaStats'
+          FlaStats
         </a>
       ),
       description:
@@ -180,7 +183,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'Aplicação JavaFX'
+          Aplicação JavaFX
         </a>
       ),
       description: 'Aplicação feita com JavaFX e SceneBuilder no Eclipse',
@@ -194,7 +197,7 @@ export const Projects = () => {
           rel="noreferrer"
           target="_blank"
         >
-          'Aplicação JSwing/JFrame'
+          Aplicação JSwing/JFrame
         </a>
       ),
       description:
