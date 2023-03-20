@@ -26,7 +26,7 @@ export const Footer = () => {
                 <img src={navIcon2} alt="Github" />
               </a>
               <a
-                href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlQQLQGRwMnvdmHnNHVnkWwqVrQFdGsKgmzXwtnJjTqcJBVFvrZNrjMfHltBFljxmCmzZQ"
+                href="mailto:diegossantana068@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >

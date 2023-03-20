@@ -10,6 +10,7 @@ import meter6 from '../assets/img/meter6.svg';
 import meter7 from '../assets/img/meter7.svg';
 import meter8 from '../assets/img/meter8.svg';
 import meter9 from '../assets/img/meter9.svg';
+import meter10 from '../assets/img/meter10.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
@@ -40,7 +41,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Algumas habilidades que eu aprendi durante 2 anos de programação
+                Algumas habilidades que eu aprendi durante 2 anos de faculdade
                 <br></br>(Alguns logos são clicáveis)
               </p>
               <Carousel
@@ -63,14 +64,18 @@ export const Skills = () => {
                   <h5 className="mb">MySQL</h5>
                 </div>
                 <div className="item">
+                  <img src={meter6} alt="Imagem" />
+                  <h5 className="mb">JavaScript</h5>
+                </div>
+                <div className="item">
                   <a
-                    href="https://www.udemy.com/certificate/UC-f4742800-47e9-49d5-a6a8-29e8ac6d4ffa/"
+                    href="https://www.origamid.com/certificate/e00dbe92"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src={meter9} alt="Imagem" />
+                    <img src={meter5} alt="Imagem" />
                   </a>
-                  <h5 className="mb">Excel</h5>
+                  <h5 className="mb">React</h5>
                 </div>
                 <div className="item">
                   <a
@@ -93,10 +98,6 @@ export const Skills = () => {
                   <h5 className="mb">CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={meter6} alt="Imagem" />
-                  <h5 className="mb">JavaScript</h5>
-                </div>
-                <div className="item">
                   <a
                     href="https://www.origamid.com/certificate/ebb0a02f"
                     rel="noreferrer"
@@ -107,18 +108,22 @@ export const Skills = () => {
                   <h5 className="mb">Bootstrap</h5>
                 </div>
                 <div className="item">
-                  <img src={meter4} alt="Imagem" />
-                  <h5 className="mb">Photoshop</h5>
-                </div>
-                <div className="item">
                   <a
-                    href="https://www.origamid.com/certificate/e00dbe92"
+                    href="https://www.udemy.com/certificate/UC-f4742800-47e9-49d5-a6a8-29e8ac6d4ffa/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src={meter5} alt="Imagem" />
+                    <img src={meter9} alt="Imagem" />
                   </a>
-                  <h5 className="mb">React</h5>
+                  <h5 className="mb">Excel</h5>
+                </div>
+                <div className="item">
+                  <img src={meter10} alt="Imagem" />
+                  <h5 className="mb">Power BI</h5>
+                </div>
+                <div className="item">
+                  <img src={meter4} alt="Imagem" />
+                  <h5 className="mb">Photoshop</h5>
                 </div>
               </Carousel>
             </div>

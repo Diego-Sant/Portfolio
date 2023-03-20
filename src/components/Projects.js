@@ -16,6 +16,9 @@ import projImg14 from '../assets/img/project-img14.png';
 import projImg15 from '../assets/img/project-img15.png';
 import projImg16 from '../assets/img/project-img16.png';
 import projImg17 from '../assets/img/project-img17.png';
+import projImg18 from '../assets/img/project-img18.png';
+import projImg19 from '../assets/img/project-img19.png';
+import projImg20 from '../assets/img/project-img20.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -80,15 +83,38 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: 'Painel de vendas Excel',
-      description: 'Tabelas e gráficos dinâmicos feitos no Excel',
-      imgUrl: projImg5,
+      title: (
+        <a
+          className="linksites"
+          href="https://clonefy-ds.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          CloneFy
+        </a>
+      ),
+      description: 'Site inspirado no Spotify com outras mecânicas. ',
+      imgUrl: projImg15,
     },
     {
-      title: 'Perfil do cliente',
+      title: 'Tabela de vendas Excel',
+      description: 'Tabelas de vendas moderna feita no Excel',
+      imgUrl: projImg19,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://github.com/Diego-Sant/flastats"
+          rel="noreferrer"
+          target="_blank"
+        >
+          FlaStats
+        </a>
+      ),
       description:
-        'Dashboard completo com pesquisa entre datas e CPF sobre as atividades do cliente.',
-      imgUrl: projImg6,
+        'Site Full Stack com pesquisa entre datas. (Site indisponível por ter sido lançado no Heroku antes de se tornar pago)',
+      imgUrl: projImg14,
     },
     {
       title: (
@@ -104,6 +130,21 @@ export const Projects = () => {
       description:
         'Site informativo sobre lançamento de jogos e suas avaliações.',
       imgUrl: projImg7,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://github.com/Diego-Sant/CampeonatoBrasileiro2023"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Aplicação JSwing/JFrame
+        </a>
+      ),
+      description:
+        'Aplicação sobre informações do futebol completamente funcional feita em JFrame com banco de dados MySQL',
+      imgUrl: projImg17,
     },
     {
       title: 'Gestão de investimento Excel',
@@ -144,15 +185,16 @@ export const Projects = () => {
       title: (
         <a
           className="linksites"
-          href="https://clonefy-ds.netlify.app/"
+          href="https://github.com/Diego-Sant/CatalogoFilmes"
           rel="noreferrer"
           target="_blank"
         >
-          CloneFy
+          Catálogo de filmes
         </a>
       ),
-      description: 'Site inspirado no Spotify com outras mecânicas. ',
-      imgUrl: projImg15,
+      description:
+        'Site em Javascript com pesquisa de títulos de filmes usando uma API',
+      imgUrl: projImg18,
     },
     {
       title: 'Fluxo de caixa empresarial',
@@ -161,48 +203,9 @@ export const Projects = () => {
       imgUrl: projImg13,
     },
     {
-      title: (
-        <a
-          className="linksites"
-          href="https://github.com/Diego-Sant/flastats"
-          rel="noreferrer"
-          target="_blank"
-        >
-          FlaStats
-        </a>
-      ),
-      description:
-        'Site Full Stack com pesquisa entre datas. (Site indisponível por ter sido lançado no Heroku antes de se tornar pago)',
-      imgUrl: projImg14,
-    },
-    {
-      title: (
-        <a
-          className="linksites"
-          href="https://github.com/Diego-Sant/JavaFX-Projeto"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Aplicação JavaFX
-        </a>
-      ),
-      description: 'Aplicação feita com JavaFX e SceneBuilder no Eclipse',
-      imgUrl: projImg16,
-    },
-    {
-      title: (
-        <a
-          className="linksites"
-          href="https://github.com/Diego-Sant/CampeonatoBrasileiro2023"
-          rel="noreferrer"
-          target="_blank"
-        >
-          Aplicação JSwing/JFrame
-        </a>
-      ),
-      description:
-        'Aplicação sobre informações do futebol completamente funcional feita em JFrame',
-      imgUrl: projImg17,
+      title: 'Dashboard com Power BI',
+      description: 'Projeto feito com Power BI.',
+      imgUrl: projImg20,
     },
   ];
 

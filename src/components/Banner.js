@@ -37,9 +37,8 @@ export const Banner = () => {
                     <br></br>
                   </h1>
                   <p>
-                    Faço faculdade há dois anos, comecei em Sistemas de
-                    Informação mas por conta da Covid me transferi para Análise
-                    de Sistemas.
+                    Comecei em Sistemas de Informação mas por conta da Covid me
+                    transferi para Análise de Sistemas.
                   </p>
                 </div>
               )}
