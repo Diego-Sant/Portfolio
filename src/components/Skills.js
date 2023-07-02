@@ -11,6 +11,11 @@ import meter7 from '../assets/img/meter7.svg';
 import meter8 from '../assets/img/meter8.svg';
 import meter9 from '../assets/img/meter9.svg';
 import meter10 from '../assets/img/meter10.svg';
+import meter11 from '../assets/img/meter11.svg';
+import meter12 from '../assets/img/meter12.svg';
+import meter13 from '../assets/img/meter13.svg';
+import meter14 from '../assets/img/meter14.svg';
+import meter15 from '../assets/img/meter15.svg';
 import colorSharp from '../assets/img/color-sharp.png';
 
 export const Skills = () => {
@@ -39,7 +44,7 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
+              <h2>Tecnologias</h2>
               <p>
                 Algumas habilidades que eu aprendi durante 2 anos de faculdade
                 <br></br>(Alguns logos são clicáveis)
@@ -50,21 +55,13 @@ export const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <a
-                    href="https://www.udemy.com/certificate/UC-bbb3e0bd-74b9-4ffe-9c0f-cf55a5db1c62/"
+                <a
+                    href="https://www.udemy.com/certificate/UC-5cde8d5a-c153-4ce1-9ea5-c5f0c704170d/"
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <img src={meter7} alt="Imagem" />
-                  </a>
-                  <h5 className="mb">Java</h5>
-                </div>
-                <div className="item">
-                  <img src={meter8} alt="Imagem" />
-                  <h5 className="mb">MySQL</h5>
-                </div>
-                <div className="item">
                   <img src={meter6} alt="Imagem" />
+                </a>
                   <h5 className="mb">JavaScript</h5>
                 </div>
                 <div className="item">
@@ -76,6 +73,32 @@ export const Skills = () => {
                     <img src={meter5} alt="Imagem" />
                   </a>
                   <h5 className="mb">React</h5>
+                </div>
+                <div className="item">
+                  <img src={meter11} alt="Imagem" />
+                  <h5 className="mb">TypeScript</h5>
+                </div>
+                <div className="item">
+                  <a
+                    href="https://www.udemy.com/certificate/UC-95e3bff4-920b-4220-ac32-ab85a6e69312/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img src={meter12} alt="Imagem" />
+                  </a>
+                  <h5 className="mb">MongoDB</h5>
+                </div>
+                <div className="item">
+                  <img src={meter13} alt="Imagem" />
+                  <h5 className="mb">NodeJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter14} alt="Imagem" />
+                  <h5 className="mb2">NextJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter15} alt="Imagem" />
+                  <h5 className="mb">TailwindCSS</h5>
                 </div>
                 <div className="item">
                   <a
@@ -106,6 +129,20 @@ export const Skills = () => {
                     <img src={meter3} alt="Imagem" />
                   </a>
                   <h5 className="mb">Bootstrap</h5>
+                </div>
+                <div className="item">
+                  <img src={meter8} alt="Imagem" />
+                  <h5 className="mb">MySQL</h5>
+                </div>
+                <div className="item">
+                  <a
+                    href="https://www.udemy.com/certificate/UC-bbb3e0bd-74b9-4ffe-9c0f-cf55a5db1c62/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img src={meter7} alt="Imagem" />
+                  </a>
+                  <h5 className="mb">Java</h5>
                 </div>
                 <div className="item">
                   <a
