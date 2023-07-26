@@ -93,7 +93,13 @@ export const Skills = () => {
                   <h5 className="mb">NodeJS</h5>
                 </div>
                 <div className="item">
+                  <a
+                    href="https://www.udemy.com/certificate/UC-71fdd649-57e4-4a5b-8bb0-3d7727c698cb/"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
                   <img src={meter14} alt="Imagem" />
+                  </a>
                   <h5 className="mb2">NextJS</h5>
                 </div>
                 <div className="item">

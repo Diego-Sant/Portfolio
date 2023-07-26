@@ -19,6 +19,9 @@ import projImg20 from '../assets/img/project-img20.png';
 import projImg21 from '../assets/img/project-img21.png';
 import projImg22 from '../assets/img/project-img22.png';
 import projImg13 from '../assets/img/project-img13.png';
+import projImg23 from '../assets/img/project-img23.png';
+import projImg24 from '../assets/img/project-img24.png';
+import projImg25 from '../assets/img/project-img25.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -42,16 +45,29 @@ export const Projects = () => {
       title: (
         <a
           className="linksites"
-          href="https://showdomilhaogame.netlify.app/"
+          href="https://brainy-ia.vercel.app/"
           rel="noreferrer"
           target="_blank"
         >
-          Show do Milhão
+          BrainyIA
         </a>
       ),
-      description:
-        'Jogo inspirado em ambos os jogos "Show do Milhão" e "Roda a Roda" implementado no computador',
-      imgUrl: projImg22,
+      description: 'Inteligência artificial com diversas funcionalidades e com capacidade de se tornar "premium", feito com TypeScript, NextJs, TailwindCSS, Shadcn ui, Clerk, Stripe e PlanetScale',
+      imgUrl: projImg25,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://zonetch.vercel.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          ZoneTech
+        </a>
+      ),
+      description: 'E-commerce de produtos tecnológicos como periféricos, consoles, peças de computadores até televisões e smartphones. Feito com NextJs, Typescript, PlanetScale, TailwindCSS, Shadcn ui e Headless ui.',
+      imgUrl: projImg23,
     },
     {
       title: (
@@ -96,6 +112,51 @@ export const Projects = () => {
       description:
         'MiniBlog completamente funcional, com função de cadastro, login, busca, postagem, edição e exclusão de fotos usando Firebase.',
       imgUrl: projImg13,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://zone-tech-admin.vercel.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Zonetech - Dashboard
+        </a>
+      ),
+      description:
+        'Dashboard feito para adicionar painéis, categorias, marcas, cores e produtos para a loja Zonetech como um banco de dados. Outras lojas podem ser adicionadas.',
+      imgUrl: projImg24,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://showdomilhaogame.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Show do Milhão
+        </a>
+      ),
+      description:
+        'Jogo inspirado em ambos os jogos "Show do Milhão" e "Roda a Roda" implementado no computador',
+      imgUrl: projImg22,
+    },
+    {
+      title: (
+        <a
+          className="linksites"
+          href="https://campeonato-brasileiro2023.vercel.app/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Brasileirão 2023
+        </a>
+      ),
+      description:
+        'Site com informações sobre os jogadores do campeonato brasileiro de 2023 feito com NextJS',
+      imgUrl: projImg14,
     },
     {
       title: (
@@ -258,21 +319,6 @@ export const Projects = () => {
       description:
         'Jogo de plataforma feito em pygame para o PCA da faculdade.',
       imgUrl: projImg9,
-    },
-    {
-      title: (
-        <a
-          className="linksites"
-          href="https://github.com/Diego-Sant/flastats"
-          rel="noreferrer"
-          target="_blank"
-        >
-          FlaStats
-        </a>
-      ),
-      description:
-        'Site Full Stack com pesquisa entre datas. (Site indisponível por ter sido lançado no Heroku antes de se tornar pago)',
-      imgUrl: projImg14,
     },
     {
       title: (
